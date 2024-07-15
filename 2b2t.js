@@ -220,7 +220,7 @@ client.on('interactionCreate', async interaction => {
         }
     } else if (commandName === "api") {
         const replyMessage5 = `
-            \`\`\`ansi\n\x1b[35m\x1b[0m\x1b[1;32mhttp://eu3.ztx.gd:25419/api/2b2tstats\n\`\`\``;
+            \`\`\`ansi\n\x1b[35m\x1b[0m\x1b[1;32mhttps://2b2queue2-production.up.railway.app/api/2b2tstats\n\`\`\``;
         await interaction.reply({ content: replyMessage5, ephemeral: false });
     } else if (commandName === "servercount") {
         if (interaction.user.id !== authorizedUserId) {

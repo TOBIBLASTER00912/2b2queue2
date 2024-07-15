@@ -1,0 +1,19 @@
+{
+  "name": "2b2tqueue-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2b2t.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.7.2",
+    "discord-api-types": "^0.37.90",
+    "discord.js": "^14.15.3",
+    "express": "^4.19.2",
+    "minecraft-server-util": "^5.4.4"
+  }
+}

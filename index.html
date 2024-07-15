@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2b2t Bot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>2b2queue</h1>
+            <p>Your 2b2t Queue Info Bot with an active API! </p>
+        </header>
+        <main>
+            <section class="description">
+                <h2>About the Bot</h2>
+                <p>
+                    2b2queue provides real-time statistics and updates for the Minecraft server 2b2t. Whether you're looking for queue statistics, in-game player counts, or the latest MOTD, this bot has you covered. Stay informed and never miss an update with our feature-rich and user-friendly bot.
+                </p>
+                <h2>Discord Bot Command list</h2>
+                <ul class="command-list">
+                    <li>/queue - Displays the current queue data</li>
+                    <li>/uptime - Displays the current uptime of the Website/API/Bot</li>
+                    <li>/ingame - Displays the count of the current online players on 2b2t</li>
+                    <li>/motd - Displays the current Message of the Day (motd)</li>
+                    <li>/api - Gives the current working API link</li>
+                    <li>(There are a few more, but they are staff only. Command list can also be accessed from top.gg with the Button below.)</li>
+                </ul>
+            </section>
+            <section class="api-example">
+                <h2>API Response Example</h2>
+                <pre>
+{
+    "stats": {
+        "inGameCount": 120,
+        "queueCount": 50,
+        "priorityQueueCount": 10,
+        "motd": "Welcome to 2b2t!"
+    },
+    "uptime": "5h 23m 42s"
+}
+                </pre>
+                <a class="api-button" href="/api/2b2tstats" target="_blank">Access the API</a>
+                <a class="api-button" href="https://discord.com/oauth2/authorize?client_id=1254446117844942868&permissions=8&integration_type=0&scope=bot" target="_blank">Invite Discord Bot</a>
+                <a class="api-button" href="https://discord.gg/PqFGGhjUC9" target="_blank">Join 2b2queue Official Server</a>
+                <a class="api-button" href="https://top.gg/bot/1254446117844942868" target="_blank">View Bot on top.gg</a>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

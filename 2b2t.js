@@ -26,7 +26,7 @@ setInterval(() => {
 
 const app = express();
 const port = 25419; // Ändere den Port auf 25419
-const token = 'MTI1NDQ0NjExNzg0NDk0Mjg2OA.GX_UPw.KRAugm9SLKnVQf-N_Cn-7ZYl7Ovd7TuLrDecCc';
+const token = 'MTI1NDQ0NjExNzg0NDk0Mjg2OA.GBDt2t.q1L-HFR6El3SzRmEzsDXE23EIHkICJ256IVbKU';
 const clientId = '1254446117844942868';
 const authorizedUserId = '946456723487608912'; // Ändere dies zu deiner Discord User ID
 

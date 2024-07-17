@@ -40,6 +40,18 @@ h2 {
     margin-bottom: 20px;
 }
 
+ul.command-list {
+    list-style: none; /* Entfernt die Aufzählungszeichen */
+    padding: 0;
+    text-align: left; /* Richtet den Text linksbündig aus */
+}
+
+ul.command-list li {
+    display: flex;
+    justify-content: space-between; /* Verteilt die Inhalte gleichmäßig */
+    padding: 5px 0;
+}
+
 pre {
     text-align: left;
     background: #111;

@@ -8,16 +8,17 @@ body {
 }
 
 .container {
+    position: relative;
     text-align: center;
     padding: 50px;
-    background: rgba(0, 0, 0, 0.5); /* Transparentes Schwarz */
+    background: rgba(0, 0, 0, 0.8); /* Schwarzer Hintergrund mit Transparenz */
     border-radius: 15px;
     max-width: 800px;
     margin: auto;
     animation: fadeIn 2s ease-in-out;
-    background: url('../logo.png') no-repeat center center; /* Logo als Hintergrund */
-    background-size: contain; /* Größe anpassen */
+    z-index: 3;
 }
+
 
 header {
     margin-bottom: 50px;

@@ -15,7 +15,7 @@ body {
     max-width: 800px;
     margin: auto;
     animation: fadeIn 2s ease-in-out;
-    background: url('logo.png') no-repeat center center; /* Logo als Hintergrund */
+    background: url('../logo.png') no-repeat center center; /* Logo als Hintergrund */
     background-size: contain; /* Größe anpassen */
 }
 
